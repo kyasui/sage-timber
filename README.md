@@ -13,7 +13,7 @@ Sage is a WordPress starter theme with a modern development workflow.
 * ES6 for JavaScript
 * [Webpack](https://webpack.github.io/) for compiling assets, optimizing images, and concatenating and minifying files
 * [BrowserSync](http://www.browsersync.io/) for synchronized browser testing
-* [Bootstrap 4](http://getbootstrap.com/) for a front-end framework (can be removed or replaced)
+* [Bootstrap 3](http://getbootstrap.com/) for a front-end framework (can be removed or replaced)
 * Template inheritance with the [theme wrapper](https://roots.io/sage/docs/theme-wrapper/)
 
 See a working example at [roots-example-project.com](https://roots-example-project.com/).

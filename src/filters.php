@@ -43,13 +43,3 @@ add_filter('body_class', function (array $classes) {
 add_filter('excerpt_more', function () {
     return ' &hellip; <a href="' . get_permalink() . '">' . __('Continued', 'sage') . '</a>';
 });
-
-/**
- * Use theme wrapper
- */
-add_filter('template_include', function ($main) {
-    if (!is_string($main) && !(is_object($main) && method_exists($main, '__toString'))) {
-        return $main;
-    }
-    return ((new Template(new Wrapper($main)))->layout());
-}, 109);

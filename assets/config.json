@@ -9,7 +9,6 @@
     ]
   },
   "watch": [
-    "templates/**/*.php",
     "src/**/*.php"
   ],
   "publicPath": "/app/themes/sage",
